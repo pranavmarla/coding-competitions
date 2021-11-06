@@ -1,3 +1,5 @@
+Input:
+
 11
 6 10 4 0
 CCDCDD
@@ -21,3 +23,19 @@ DDD
 DCC
 3 0 9 1
 CCD
+
+###########
+
+Output:
+
+Case #1: YES
+Case #2: YES
+Case #3: NO
+Case #4: YES
+Case #5: NO
+Case #6: YES
+Case #7: NO
+Case #8: NO
+Case #9: YES
+Case #10: YES
+Case #11: NO
