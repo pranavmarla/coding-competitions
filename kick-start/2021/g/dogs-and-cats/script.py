@@ -43,15 +43,11 @@ def process_test_case(test_case_num, num_dog_food, num_cat_food, num_cat_food_re
     print(f'Case #{test_case_num}: YES')
 
 
-def main():
-
-    num_test_cases = int(input())
-
-    for test_case in range(1, num_test_cases+1):
-        _, num_dog_food, num_cat_food, num_cat_food_refills = [int(int_str) for int_str in input().split()]
-        animals_str = input()
-        process_test_case(test_case, num_dog_food, num_cat_food, num_cat_food_refills, animals_str)
-
-
 # Execution
-main()
+
+num_test_cases = int(input())
+
+for test_case in range(1, num_test_cases+1):
+    _, num_dog_food, num_cat_food, num_cat_food_refills = [int(int_str) for int_str in input().split()]
+    animals_str = input()
+    process_test_case(test_case, num_dog_food, num_cat_food, num_cat_food_refills, animals_str)
