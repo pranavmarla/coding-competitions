@@ -1,0 +1,11 @@
+    Y   Y   G   G   B   B
+->  Y   Y   YB  YB  B   B
+= 2
+
+    R       O       A       O       R
+->  R       RY      RYB     RY      R
+= 3
+
+    A       O       A       O       A
+->  RYB     RY      RYB     RY      RYB
+= 5
