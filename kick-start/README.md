@@ -1,0 +1,1 @@
+Coding competition hosted by Google: https://codingcompetitions.withgoogle.com/kickstart
