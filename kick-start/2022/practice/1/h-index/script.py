@@ -1,6 +1,4 @@
-# Constants
-
-
+# NOTE: Although this algorithm is better than the naive approach (O(n^3)), it is still too slow (O(n^2)) when n (number of papers) is large.
 
 # Functions
 
