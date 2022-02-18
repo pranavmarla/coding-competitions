@@ -17,11 +17,10 @@ def process_test_case(test_case_num, num_papers, num_citations_per_paper):
     current_h_index = 0
     next_possible_h_index = current_h_index + 1
 
-    # For each paper's number of citations, store its contributions towards each of the remaining possible h-indexes -- i.e. all the possible h-indexes (down to the current h-index) that that paper's number of citations could potentially help us get to
+    # For each paper's number of citations, store its contributions towards each of the remaining possible h-indexes -- i.e. all the possible h-indexes (starting from next_possible_h_index) that that paper's number of citations could potentially help us get to
     for num_citations in num_citations_per_paper:
 
-        # Note that current_h_index, as the endpoint, is excluded -- i.e. only goes down to next_possible_h_index!
-        for i in range(min(num_citations, max_possible_h_index), current_h_index, -1):
+        for i in range(next_possible_h_index, min(num_citations, max_possible_h_index) + 1):
             possible_h_indexes[i] += 1
 
         if possible_h_indexes[next_possible_h_index] == next_possible_h_index:
@@ -30,6 +29,8 @@ def process_test_case(test_case_num, num_papers, num_citations_per_paper):
         
         print(f' {current_h_index}', end='')
 
+    # Add newline at the end of the test case
+    print()
 
 # Execution
 
