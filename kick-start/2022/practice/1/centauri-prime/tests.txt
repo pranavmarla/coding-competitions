@@ -1,0 +1,20 @@
+Input:
+
+6
+Mollaristan
+Auritania
+Zizily
+Kingdom A
+Kingdom B
+Kingdom Y
+
+###########
+
+Output:
+
+Case #1: Mollaristan is ruled by Bob.
+Case #2: Auritania is ruled by Alice.
+Case #3: Zizily is ruled by nobody.
+Case #4: Kingdom A is ruled by Alice.
+Case #5: Kingdom B is ruled by Bob.
+Case #6: Kingdom Y is ruled by nobody.
