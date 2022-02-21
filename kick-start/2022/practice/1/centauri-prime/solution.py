@@ -6,7 +6,8 @@ VOWELS = ['a', 'e', 'i', 'o', 'u']
 def process_test_case(test_case_num, kingdom_name, vowels=VOWELS):
 
     last_letter = kingdom_name[-1]
-    # To handle the case where, for example, the kingdom name consists of two words and the second word consists of just the starting capital letter -- i.e. the case where the last letter of the kingdom name is a capital letter!
+    # To handle the case where the last letter of the kingdom name is a capital letter!
+    # Eg. A
     # Eg. New Y
     last_letter = last_letter.lower()
 
